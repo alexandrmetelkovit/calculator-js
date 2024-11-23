@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(131, 144, 195);
+}
+.main {
+  padding: 30px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.calculator-wrapper {
+  margin: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 30px;
+  background-color: rgb(182, 207, 228);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  box-shadow: 0 0 0 1px pink;
+}
+
+.btn {
+  font-size: 40px;
+}
+
+span {
+  font-size: 40px;
+}
+
+.result-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.result-wrapper span {
+  color: rgb(35, 90, 34);
+}
+.result-wrapper button {
+  background-color: rgb(156, 70, 70);
+  color: wheat;
+}
+
+.input-number {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+input {
+  border: 0.5px solid black;
+  transition: all 0.3s ease-in-out;
+  color: black;
+  padding: 3px 5px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+input::placeholder {
+  color: rgb(33, 27, 27);
+}
+input:focus {
+  box-shadow: 0 0 0 1px green;
+}
